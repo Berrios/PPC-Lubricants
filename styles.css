@@ -1,11 +1,11 @@
 *{
+	font-family: sans-serif;
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif;
 }
 #wrapper{
-	width: 1000px;
 	overflow: auto;
+	width: 960px;
 }
 
 /* -----------start of header-----------*/
@@ -14,14 +14,13 @@
 }
 	#header img{
 		display: inline-block;
-
 	}
 	#header h1{
 		display: inline-block;
-		text-align: right;
 		font-size: 20px;
-		vertical-align: top;
 		margin:  40px 10px 0px 250px;
+		text-align: right;
+		vertical-align: top;
 	}
 
 /* -----------start of navbar-----------*/
@@ -34,38 +33,68 @@
 	background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 26%,#e1e1e1 38%,#f6f6f6 100%);
 	background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 26%,#e1e1e1 38%,#f6f6f6 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
-	display: block;
+	border-bottom: none;
+	border-color: #d1d0d0;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #d1d0d0;
-	border-bottom: none;
+	display: block;
 	padding-left: 20px;
 }
 	#navbar li{
-			text-transform: uppercase;
-			display: inline-block;
+			border-bottom: none;
+			border-left-color: #d1d0d0;
 			border-left-style: solid;
 			border-left-width: 1px;
-			border-left-color: #d1d0d0;
-			margin: 0px 0px 0px 10px;
-			border-bottom: none;
-			padding-left: 10px;
+			display: inline-block;
 			font-weight: bold;
+			margin: 0px 0px 0px 10px;
+			padding-left: 10px;
 			padding: 10px 0px 10px 15px;
+			text-transform: uppercase;
 		}
 	#navbar li:nth-child(7){
+			border-right-color: #d1d0d0; 
 			border-right-style: solid;
 			border-right-width: 1px;
-			border-right-color: #d1d0d0; 
 			padding-right: 10px;
 	}	
 		#navbar li a{
+				color: #666666;
 				font-size: 12px;
 				text-decoration: none;
-				color: #666666;
 			}
 
+/* -----------start of body -----------*/
+#body{
+	background: radial-gradient(ellipse at center, #7d7e7d 0%,#0e0e0e 69%);
+	color: white;
+}
+	#body img{
+		display: inline;
+		vertical-align: top;
+		margin: 20px 5px 20px 20px;
+	}
 /* -----------start of maincontent-----------*/
 
-
+#maincontent{
+	display: inline-block;
+	width: 500px;
+	background: linear-gradient(to right, rgba(255,255,255,0.50) 0%,rgba(255,255,255,0.20) 100%);
+	font-size: 85%;
+	margin: 20px 20px 20px 5px;
+}
+	#maincontent h3{
+		background: linear-gradient(to bottom, #f1e767 0%,#feb645 75%,#f1e767 99%);
+		color: black;
+		display: block;
+		font-size: 90%;
+		padding: 5px;
+	}
+	#maincontent h4{
+		padding: 10px;
+	}
+	#maincontent p{
+		padding: 10px 5px 4px 10px;
+	}
+	
 /* -----------start of thumb-----------*/
